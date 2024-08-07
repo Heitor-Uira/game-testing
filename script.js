@@ -21,3 +21,6 @@ function onDrop(event) {
   .dataTransfer
   .clearData();
 }
+setTimeout(function() {
+  window.location.href = "https://heitor-uira.github.io/Match/index.html"
+}, 10000)
